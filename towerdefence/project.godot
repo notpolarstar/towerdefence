@@ -11,6 +11,7 @@ config_version=4
 [application]
 
 config/name="towerdefence"
+run/main_scene="res://EcranTitre.tscn"
 config/icon="res://icon.png"
 
 [display]
