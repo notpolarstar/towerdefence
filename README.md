@@ -13,3 +13,5 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 * Amélioration de l'écran titre
 * Ajout d'un ennemi temporaire
 * Amélioration du tilemap/tileset
+* Ajout de Sprites d'ennemis
+* Ajout de Sprites de Batiment
