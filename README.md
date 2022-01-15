@@ -19,3 +19,4 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 * Amélioration du carré de séléction
 * Menu options fonctionnel
 * Mode plein écran ajouté
+* Menu pour quitter à l'écran titre ajouté
