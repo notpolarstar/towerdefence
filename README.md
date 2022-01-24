@@ -13,5 +13,16 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 * Amélioration de l'écran titre
 * Ajout d'un ennemi temporaire
 * Amélioration du tilemap/tileset
+
+## Semaine 2
+* 1ère build
+* Amélioration du carré de séléction
+* Menu options fonctionnel
+* Mode plein écran ajouté
+* Menu pour quitter à l'écran titre ajouté
+
+## Semaine 3
+* Amélioration de l'écran titre
+* Amélioration de l'ennemi
 * Ajout de Sprites d'ennemis
 * Ajout de Sprites de Batiment

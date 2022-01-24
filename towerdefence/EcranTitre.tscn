@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://BRITANIC.TTF" type="DynamicFontData" id=1]
 [ext_resource path="res://Nouvelle partie.gd" type="Script" id=2]
+[ext_resource path="res://Options.gd" type="Script" id=3]
 
 [sub_resource type="DynamicFont" id=1]
 size = 50
@@ -83,11 +84,25 @@ __meta__ = {
 margin_top = 329.0
 margin_right = 960.0
 margin_bottom = 349.0
-mouse_filter = 2
 text = "Options"
 flat = true
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ConfirmationDialog" type="ConfirmationDialog" parent="MarginContainer/VBoxContainer/Options"]
+visible = true
+anchor_left = 0.44
+anchor_top = 0.514
+anchor_right = 0.44
+anchor_bottom = 0.514
+window_title = "Options"
+dialog_text = "Plein écran ?"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Nouvellepartie" to="MarginContainer/VBoxContainer/Nouvellepartie" method="_on_Nouvellepartie_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options" to="MarginContainer/VBoxContainer/Options" method="_on_Options_pressed"]
+[connection signal="confirmed" from="MarginContainer/VBoxContainer/Options/ConfirmationDialog" to="MarginContainer/VBoxContainer/Options" method="_on_ConfirmationDialog_confirmed"]
