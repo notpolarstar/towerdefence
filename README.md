@@ -24,3 +24,5 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 ## Semaine 3
 * Amélioration de l'écran titre
 * Amélioration de l'ennemi
+* Ajout de Sprites d'ennemis
+* Ajout de Sprites de Batiment
