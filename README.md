@@ -1,5 +1,6 @@
 # towerdefence
 Travail pour la NSI 2021-2022 par Tiziano et Tom
+![Towerdefense001](https://user-images.githubusercontent.com/55955510/150747794-3985b2ad-0555-418b-b753-579ea642cb72.PNG)
 ## Logiciels utilisés
 * Godot
 * paint.net
@@ -27,3 +28,4 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 * Ajout de Sprites d'ennemis
 * Ajout de Sprites de Batiment
 * Correction d'une faute d'orthographe
+* Ajout de capture d'écran
