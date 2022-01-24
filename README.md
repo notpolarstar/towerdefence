@@ -26,3 +26,4 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 * Amélioration de l'ennemi
 * Ajout de Sprites d'ennemis
 * Ajout de Sprites de Batiment
+* Correction d'une faute d'orthographe
