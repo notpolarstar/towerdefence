@@ -31,3 +31,9 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 * Amélioration de l'ennemi
 * Correction d'une faute d'orthographe
 * Ajout de capture d'écran
+
+## Semaine 5-9
+* Création du système de placements des bâtiments
+* Création du système de collision (batiments/ennemis)
+* Amélioration du code
+* Nouvelle "release"
