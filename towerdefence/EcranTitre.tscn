@@ -92,11 +92,11 @@ __meta__ = {
 }
 
 [node name="ConfirmationDialog" type="ConfirmationDialog" parent="MarginContainer/VBoxContainer/Options"]
-visible = true
 anchor_left = 0.44
 anchor_top = 0.514
 anchor_right = 0.44
 anchor_bottom = 0.514
+rect_min_size = Vector2( 150, 52.5 )
 window_title = "Options"
 dialog_text = "Plein écran ?"
 __meta__ = {
