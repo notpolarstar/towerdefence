@@ -37,3 +37,7 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 * Création du système de collision (batiments/ennemis)
 * Amélioration du code
 * Nouvelle "release"
+
+## Semaine 10
+* Amélioration du système de collision
+* Plusieurs projectiles peuvent fonctionner en même temps
