@@ -41,3 +41,7 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 ## Semaine 10
 * Amélioration du système de collision
 * Plusieurs projectiles peuvent fonctionner en même temps
+
+## Semaine 11
+* Amélioration du système de déplacement des projectiles
+* Amélioration du système de spawn des ennemis
