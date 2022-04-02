@@ -6,6 +6,8 @@ onready var tilemap = get_node("TileMap")
 onready var popup_menu = get_node("PopupMenu")
 onready var cible = get_node("Cible")
 export var Rocher = preload("res://Rocher.tscn")
+export var Ennemi = preload("res://Ennemi.tscn")
+var pos_ennemi = 1
 var x = 0
 var y = 0
 enum PopupIds {
@@ -37,6 +39,7 @@ func _process(_delta):
 	if (Input.is_action_just_pressed("fullscreen")):
 		OS.window_fullscreen = false
 		quitter.popup()
+	spawn_ennemi()
 
 #quitter
 func _on_ConfirmationDialog_confirmed():
@@ -58,3 +61,13 @@ func _on_PopupMenu_id_pressed(id):
 			cible.global_position = Vector2(tile_pos.x*96-192,tile_pos.y*96-96)
 			r.position = cible.global_position
 			print(r.position)
+
+func spawn_ennemi():
+	var random = RandomNumberGenerator.new()
+	random.randomize()
+	var spawn = random.randi_range(0,100)
+	if spawn == 5:
+		var ennemi = Ennemi.instance()
+		add_child(ennemi)
+		ennemi.global_position = Vector2(pos_ennemi*96-48,240)
+		pos_ennemi += 1
