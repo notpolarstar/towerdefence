@@ -69,5 +69,5 @@ func spawn_ennemi():
 	if spawn == 5:
 		var ennemi = Ennemi.instance()
 		add_child(ennemi)
-		ennemi.global_position = Vector2(pos_ennemi*96-48,240)
-		pos_ennemi += 1
+		ennemi.global_position = Vector2(48,240)
+		
