@@ -45,3 +45,10 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 ## Semaine 11
 * Amélioration du système de déplacement des projectiles
 * Amélioration du système de spawn des ennemis
+
+## Semaine 12
+* Système de projectile entièrement fonctionnel
+
+## Semaine 13
+* Ennemis fonctionnels
+* Projectiles ralentis
