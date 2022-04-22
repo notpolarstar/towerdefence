@@ -52,3 +52,13 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 ## Semaine 13
 * Ennemis fonctionnels
 * Projectiles ralentis
+
+## Semaine 14
+* Version 1.0.0
+* Ajout des maisons
+* Ajout des champs
+* Ajout des points de vie du château
+* Ajout du système de ressources
+* Amélioration de l'écran titre
+* Création d'un menu d'aide
+* Création d'un menu de game over
