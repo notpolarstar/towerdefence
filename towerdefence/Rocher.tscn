@@ -20,6 +20,7 @@ scale = Vector2( 3, 3 )
 shape = SubResource( 1 )
 
 [node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
 autostart = true
 
 [connection signal="area_entered" from="." to="." method="_on_Rocher_area_entered"]

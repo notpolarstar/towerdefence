@@ -14,6 +14,10 @@ config/name="towerdefence"
 run/main_scene="res://EcranTitre.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Variables="*res://Variables.gd"
+
 [display]
 
 window/size/width=960
@@ -27,6 +31,11 @@ window/stretch/aspect="keep"
 fullscreen={
 "deadzone": 0.5,
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777217,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+cheat={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777349,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
  ]
 }
 
