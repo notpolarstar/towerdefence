@@ -62,3 +62,11 @@ Travail pour la NSI 2021-2022 par Tiziano et Tom
 * Amélioration de l'écran titre
 * Création d'un menu d'aide
 * Création d'un menu de game over
+
+## Semaine 15
+* Version 1.1.0
+* Ajout de la supression
+* Ajout des ennemis dorés
+* Ajout d'un score final
+* Ajout d'une musique de gameplay
+* Ajout d'effets sonores
